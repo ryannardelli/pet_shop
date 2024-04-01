@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo-img-dog {
+    height: 50px;
+    width: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding-left: 10px;
+}
