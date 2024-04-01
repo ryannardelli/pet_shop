@@ -20,3 +20,14 @@ header {
     text-decoration: none;
     padding-left: 10px;
 }
+
+.main-services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.img-dog-section-principle {
+    height: 400px;
+    width: 400px;
+}
