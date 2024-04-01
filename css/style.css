@@ -31,3 +31,8 @@ header {
     height: 400px;
     width: 400px;
 }
+
+.informations-about-services {
+    display: flex;
+    padding: 20px;
+}
