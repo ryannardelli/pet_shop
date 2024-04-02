@@ -138,10 +138,19 @@ header {
     display: flex;
     align-items: center;
     background: var(--color_theme-background-second);
+    padding: 30px;
     /* flex-wrap: wrap; */
 }
 
 footer {
     display: flex;
     justify-content: center;
+    background: rgb(20, 20, 20);
+    padding: 30px;
+}
+
+.icons-footer {
+    height: 48px;
+    width: 48px;
+    margin-left: 20px;
 }
