@@ -124,8 +124,7 @@ header {
 
 .img-costumer {
     height: 300px;
-    width: 200px;
-    overflow: hidden;
+    width: 100%;
 }
 
 .img-costumer img {
