@@ -169,7 +169,7 @@ header {
 }
 
 .img-costumer {
-    height: 200px;
+    height: 250px;
     width: 100%;
 }
 
@@ -220,10 +220,4 @@ footer {
 
 .icon-footer {
     font-size: 24px;
-}
-
-.icon-instagram {
-    height: 24px;
-    width: 24px;
-    background: white;
 }
