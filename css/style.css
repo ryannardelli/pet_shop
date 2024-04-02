@@ -110,7 +110,7 @@ header {
 
 .feedbacks-costumer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     background: var(--color_theme_icons_theme-costumer);
     gap: 20px;
     padding: 30px;
@@ -131,6 +131,14 @@ header {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.costumer-avaliation {
+    display: flex;
+    list-style: none;
+    color: #ffe500;
+    border: 1px solid #fff;
+    font-size: 25px;
 }
 
 .end-page {
