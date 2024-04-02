@@ -136,7 +136,7 @@ header {
     padding: 20px;
 }
 
-.feedbacks-costumer {
+.feedbacks-costumer-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     background: var(--color_theme_icons_theme-costumer);
@@ -147,6 +147,10 @@ header {
 }
 
 .costumer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     background: white;
     border-radius: 5px;
 }
