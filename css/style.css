@@ -4,7 +4,7 @@
 :root {
     --color_theme_background-first: #9BF2EA;
     --color_theme-background-second: #2A8C82;
-    --color_theme_icons_about_our: #275950;
+    --color_theme_icons_theme-costumer: #275950;
     --color_button: #41BFB3;
     --color-font-nav: #260101;
 }
@@ -23,6 +23,9 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    background: white;
 }
 
 .logo-img-dog {
@@ -78,7 +81,7 @@ header {
 }
 
 .icon-card img {
-    background: var(--color_theme_background-first);
+    background:var(--color_theme_background-first);
     padding: 20px;
 }
 
@@ -86,6 +89,7 @@ header {
     display: flex;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    background: var(--color_theme_icons_theme-costumer);
 }
 
 .img-costumer {
@@ -103,6 +107,7 @@ header {
 .end-page {
     display: flex;
     align-items: center;
+    background: var(--color_theme-background-second);
     /* flex-wrap: wrap; */
 }
 
