@@ -143,6 +143,21 @@ header {
     padding: 20px;
 }
 
+.btn-know-more {
+    border: 0;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5x;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: ease-out 0.4s;
+}
+
+.btn-know-more:hover {
+    background: var(--color_button);
+}
+
 .feedbacks-costumer-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
