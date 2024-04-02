@@ -149,7 +149,7 @@ header {
     padding: 10px;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 5x;
+    border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
     transition: ease-out 0.4s;
