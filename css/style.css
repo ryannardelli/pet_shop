@@ -153,6 +153,12 @@ header {
     text-align: center;
 }
 
+.feedback-costumer-about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .costumer {
     display: flex;
     flex-direction: column;
