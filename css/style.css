@@ -62,7 +62,7 @@ header {
     font-weight: bolder;
     margin: 10px;
     padding: 10px;
-    font-variant: small-caps;
+    text-transform: capitalize;
 }
 
 .img-dog-section-principle {
