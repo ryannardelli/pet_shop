@@ -164,7 +164,6 @@ header {
 .costumer {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     background: white;
     border-radius: 5px;
 }
