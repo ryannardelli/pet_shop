@@ -103,6 +103,7 @@ header {
     transition: ease-out 0.4s;
     width: 200px;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .btn-cta:hover {
