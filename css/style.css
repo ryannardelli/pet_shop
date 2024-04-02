@@ -43,7 +43,7 @@ header {
 .main-services {
     display: flex;
     flex-wrap: wrap-reverse;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background: var(--color_theme_background-first);
     padding: 30px;
