@@ -1,19 +1,12 @@
-/* Color Theme Swatches in Hex */
-/* .22:38-1-hex { color: #10454F; }
-.22:38-2-hex { color: #506266; }
-.22:38-3-hex { color: #818274; }
-.22:38-4-hex { color: #A3AB78; }
-.22:38-5-hex { color: #BDE038; } */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 :root {
-    --color_theme_background-first: #A3AB78;
-    --color_theme-background-second: #10454F;
-    --color_theme_icons_about_our: #818274;
-    --color_button: #BDE038;
-    --color-font-nav: #506266;
+    --color_theme_background-first: #9BF2EA;
+    --color_theme-background-second: #2A8C82;
+    --color_theme_icons_about_our: #275950;
+    --color_button: #41BFB3;
+    --color-font-nav: #260101;
 }
 
 
@@ -40,6 +33,7 @@ header {
 .menu a {
     text-decoration: none;
     padding-left: 10px;
+    color: var(--color-font-nav);
 }
 
 .main-services {
