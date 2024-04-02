@@ -202,3 +202,29 @@ header {
     max-width: 600px;
     text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: var(--color-font-nav);
+    color: white;
+    padding: 30px;
+    gap: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-footer {
+    font-size: 24px;
+}
+
+.icon-instagram {
+    height: 24px;
+    width: 24px;
+    background: white;
+}
