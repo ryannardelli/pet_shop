@@ -69,6 +69,29 @@ header {
     }
 }
 
+.btn-cta {
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: var(--color_button);
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 var(--color_button);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    width: 200px;
+    margin: 10px 0px;
+}
+
+.btn-cta:hover {
+    box-shadow: inset 570px 0 0 0 var(--color_theme-background-second);
+}
+
 .informations-about-services {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -86,10 +109,17 @@ header {
 }
 
 .feedbacks-costumer {
-    display: flex;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     background: var(--color_theme_icons_theme-costumer);
+    gap: 20px;
+    padding: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.costumer {
+    background: white;
+    border-radius: 10px;
 }
 
 .img-costumer {
