@@ -44,8 +44,11 @@ header {
 
 .main-services {
     display: flex;
+    flex-wrap: wrap-reverse;
     align-items: center;
     text-align: center;
+    background: var(--color_theme_background-first);
+    padding: 30px;
 }
 
 .img-dog-section-principle {
@@ -70,12 +73,25 @@ header {
 }
 
 .informations-about-services {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.informations {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon-card img {
+    background: var(--color_theme_background-first);
     padding: 20px;
 }
 
 .feedbacks-costumer {
     display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
 .img-costumer {
@@ -93,4 +109,10 @@ header {
 .end-page {
     display: flex;
     align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
