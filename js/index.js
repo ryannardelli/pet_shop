@@ -1,6 +1,7 @@
 // scritp do popup de saída
 const popUp = document.querySelector('#pop_up_saida');
 const buttonCancel = document.querySelector('#button-cancel');
+const icon_whatsapp = document.querySelector('#icon-whatsapp');
 
 localStorage.removeItem('popUpDisplayed'); // remove o popUpDisplayed sempre que o usuário entrar na página
 
@@ -18,4 +19,16 @@ buttonCancel.addEventListener('click', () => {
 
     // vai verificar se o popup ja foi acionado alguma vez
     localStorage.setItem('popUpDisplayed', true);
+});
+
+// script que aciona o ícone do whatsapp na tela
+
+window.addEventListener('scroll', () => {
+    const scrollTop = document.documentElement.scrollTop; // captura o scroll da página atual
+    
+    if (scrollTop > 500) {
+        icon_whatsapp.style.display = 'block';
+    } else {
+        icon_whatsapp.style.display = 'none';
+    }
 });

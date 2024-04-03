@@ -286,3 +286,15 @@ footer {
 #pop_up_button button:hover {
     background: transparent;
 }
+
+#icon-whatsapp {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#icon-whatsapp:hover {
+    transform: scale(1.1);
+}
