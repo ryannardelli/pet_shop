@@ -233,7 +233,7 @@ footer {
     flex-wrap: wrap;
     background: var(--color-font-nav);
     color: white;
-    padding: 30px;
+    padding: 1rem;
     gap: 20px;
 }
 
