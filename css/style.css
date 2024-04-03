@@ -237,3 +237,43 @@ footer {
 .icon-footer {
     font-size: 24px;
 }
+
+#pop_up_saida {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, 0.5);
+    display: none;
+}
+
+#pop_up_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#pop_up_button {
+    margin-top: 1.5rem;
+}
+
+#pop_up_button button {
+    background: var(--color_theme_background-first);
+    color: black;
+    font-weight: bolder;
+    padding: 0.6rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--color_theme-background-second);
+    cursor: pointer;
+    transition: ease-out 0.4s;
+}
+
+#pop_up_button button:hover {
+    background: transparent;
+}
