@@ -58,8 +58,7 @@ header {
 .content h1, .content-about-section h1 {
     font-size: 2em;
     font-weight: bolder;
-    margin: 10px;
-    padding: 10px;
+    
     text-transform: uppercase;
 }
 
