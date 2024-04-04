@@ -175,27 +175,26 @@ header {
 }
 
 .feedbacks-costumer-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     background: var(--color_theme_icons_theme-costumer);
-    gap: 20px;
     padding: 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .feedback-costumer-about {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     padding: 20px;
     text-align: center;
     font-weight: bolder;
+    max-width: 400px;
 }
 
 .costumer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     visibility: hidden;
-    display: flex;
-    flex-direction: column;
     background: white;
     border-radius: 5px;
 }
