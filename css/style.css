@@ -24,8 +24,6 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-    position: sticky;
-    top: 0;
     background: white;
 }
 
@@ -187,6 +185,7 @@ header {
 }
 
 .costumer {
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     background: white;

@@ -32,3 +32,21 @@ window.addEventListener('scroll', () => {
         icon_whatsapp.style.display = 'none';
     }
 });
+
+// script scrollReveal
+
+// sessão dos feedbacks dos clientes
+
+window.sr = ScrollReveal({ reset: true });
+// sr.reveal('.costumer', {
+//     rotate: {x: 100, y: 0, z: 0},
+//     duration: 2000
+// });
+sr.reveal('.costumer', {
+      delay: 200, // Atraso antes de cada elemento ser revelado
+      distance: '50px', // Distância de deslocamento do elemento
+      origin: 'bottom', // De onde o elemento vai se originar
+      duration: 1000, // Duração da animação em milissegundos
+      easing: 'ease-in-out', // Tipo de animação
+      reset: true // Se os elementos devem ser reanimados ao rolar para cima novamente
+});
