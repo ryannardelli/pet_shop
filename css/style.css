@@ -222,13 +222,46 @@ header {
 }
 
 .container-end-page {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: var(--color_theme-background-second);
+    /* background: var(--color_theme-background-second); */
+    background: #0c192c;
     color: white;
     padding: 30px;
     flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.bolhas {
+    position: absolute;
+    display: flex;
+}
+
+.bolhas span {
+    width: 30px;
+    height: 30px;
+    background: #e5ff00;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #e5ff0044, 0 0 50px #e5ff00, 0 0 100px #e5ff00;
+    animation: animate calc(150s / var(--i)) linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(1200px) scale(0);
+    }
+
+    100% {
+        transform: translateY(-10%) scale(1);
+    }
+}
+
+.bolhas span:nth-last-of-type(even) {
+    background: #2dc3ff;
+    box-shadow: 0 0 0 10px #e5ff0044, 0 0 50px #2dc3ff, 0 0 100px #2dc3ff;
 }
 
 .content-about-section {
