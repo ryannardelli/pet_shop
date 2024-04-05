@@ -226,7 +226,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* background: var(--color_theme-background-second); */
     background: #0c192c;
     color: white;
     padding: 30px;
