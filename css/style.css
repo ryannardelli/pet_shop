@@ -341,7 +341,7 @@ footer {
     transform: scale(1.1);
 }
 
-/* tela mobile */
+/* tela de celular */
 @media (max-width: 600px) {
     .feedbacks-costumer-container {
         flex-wrap: wrap;
