@@ -189,6 +189,9 @@ header {
 }
 
 .feedback-costumer-about {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     padding: 20px;
     text-align: center;
     font-weight: bolder;
