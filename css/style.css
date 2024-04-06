@@ -214,12 +214,15 @@
 }
 
 .btn-know-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
     border: 2px solid transparent;
     font-weight: bolder;
     border-radius: 10px;
     padding: 0.5rem 1.5rem;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 14px;
     letter-spacing: 1px;
     background: #d3d3d3;
@@ -231,6 +234,10 @@
     width: 100%;
     margin: 0 auto;
     text-transform: uppercase;
+}
+
+.btn-know-more span {
+    margin-left: 5px;
 }
 
 .btn-know-more:hover {
