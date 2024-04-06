@@ -140,7 +140,7 @@ header {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    max-width: 600px;
+    max-width: 400px;
 }
 
 .about-card {
