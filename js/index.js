@@ -21,12 +21,12 @@ buttonCancel.addEventListener('click', () => {
     localStorage.setItem('popUpDisplayed', true);
 });
 
-// script que aciona o ícone do whatsapp na tela
+// script que aciona o ícone do back to top na tela
 
 window.addEventListener('scroll', () => {
     const scrollTop = document.documentElement.scrollTop; // captura o scroll da página atual
     
-    if (scrollTop > 500) {
+    if (scrollTop > 500 && !isActive()) {
         icon_back_to_top.style.display = 'block';
     } else {
         icon_back_to_top.style.display = 'none';
@@ -38,10 +38,6 @@ window.addEventListener('scroll', () => {
 // sessão dos feedbacks dos clientes
 
 window.sr = ScrollReveal({ reset: true });
-// sr.reveal('.costumer', {
-//     rotate: {x: 100, y: 0, z: 0},
-//     duration: 2000
-// });
 sr.reveal('.costumer', {
       delay: 200, // Atraso antes de cada elemento ser revelado
       distance: '50px', // Distância de deslocamento do elemento
@@ -50,3 +46,31 @@ sr.reveal('.costumer', {
       easing: 'ease-in-out', // Tipo de animação
       reset: true // Se os elementos devem ser reanimados ao rolar para cima novamente
 });
+
+// script do menu hamburguer
+
+const burguer = document.querySelector('.menu-burguer');
+const nav = document.querySelector('.nav');
+const btn_cta = document.querySelector('.cta');
+const img_dog = document.querySelector('.img-dog-section-principle');
+const feedbacks_costumer = document.querySelector('.feedbacks-costumer-container');
+const section_end_page = document.querySelector('.container-end-page');
+
+burguer.addEventListener('click', () => {
+    nav.classList.toggle("active");
+    if (isActive()) {
+        btn_cta.style.display = 'none';
+        img_dog.style.display = 'none';
+        feedbacks_costumer.style.display = 'none';
+        section_end_page.style.display = 'none';
+    } else {
+        btn_cta.style.display = 'block';
+        img_dog.style.display = 'block';
+        feedbacks_costumer.style.display = 'block';
+        section_end_page.style.display = 'block';
+    }
+});
+
+function isActive() {
+    return nav.classList.contains('active');
+}
