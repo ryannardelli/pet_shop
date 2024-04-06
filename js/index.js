@@ -1,7 +1,7 @@
 // scritp do popup de saída
 const popUp = document.querySelector('#pop_up_saida');
 const buttonCancel = document.querySelector('#button-cancel');
-const icon_whatsapp = document.querySelector('#icon-whatsapp');
+const icon_back_to_top = document.querySelector('#icon-back-to-top');
 
 localStorage.removeItem('popUpDisplayed'); // remove o popUpDisplayed sempre que o usuário entrar na página
 
@@ -27,9 +27,9 @@ window.addEventListener('scroll', () => {
     const scrollTop = document.documentElement.scrollTop; // captura o scroll da página atual
     
     if (scrollTop > 500) {
-        icon_whatsapp.style.display = 'block';
+        icon_back_to_top.style.display = 'block';
     } else {
-        icon_whatsapp.style.display = 'none';
+        icon_back_to_top.style.display = 'none';
     }
 });
 

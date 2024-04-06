@@ -363,16 +363,18 @@ footer {
     background: transparent;
 }
 
-#icon-whatsapp {
+#icon-back-to-top {
     display: none;
     position: fixed;
     bottom: 20px;
     right: 30px;
     cursor: pointer;
+    height: 48px;
+    width: 48px;
     transition: 0.5s;
 }
 
-#icon-whatsapp:hover {
+#icon-back-to-top:hover {
     transform: scale(1.1);
 }
 
