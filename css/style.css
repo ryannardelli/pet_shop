@@ -254,6 +254,7 @@
 }
 
 .feedback-costumer-about {
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     gap: 5px;
