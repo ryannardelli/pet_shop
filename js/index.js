@@ -74,3 +74,12 @@ burguer.addEventListener('click', () => {
 function isActive() {
     return nav.classList.contains('active');
 }
+
+// script do back to top
+
+icon_back_to_top.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+});
