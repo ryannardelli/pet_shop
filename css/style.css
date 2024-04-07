@@ -502,6 +502,10 @@ footer {
     .main-services {
         justify-content: center;
     }
+
+    .container-end-page {
+        justify-content: center;
+    }
 }
 
 /* tela de tablet */
@@ -515,6 +519,10 @@ footer {
     }
 
     .main-services {
+        justify-content: center;
+    }
+
+    .container-end-page {
         justify-content: center;
     }
 }
