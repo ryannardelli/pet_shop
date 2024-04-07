@@ -371,6 +371,10 @@ footer {
 }
 
 #pop_up_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-inline: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -381,9 +385,7 @@ footer {
     text-align: center;
 }
 
-#pop_up_button {
-    margin-top: 1.5rem;
-}
+
 
 #pop_up_button button {
     background: var(--color_theme_background-first);
