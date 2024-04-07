@@ -498,6 +498,10 @@ footer {
     .nav-list li:nth-child(4) a {
         transition: 0.5s 0.8s;
     }
+
+    .main-services {
+        justify-content: center;
+    }
 }
 
 /* tela de tablet */
@@ -508,5 +512,9 @@ footer {
 
     .informations-about-services {
         flex-wrap: wrap;
+    }
+
+    .main-services {
+        justify-content: center;
     }
 }
