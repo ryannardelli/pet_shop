@@ -128,7 +128,7 @@
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
-    color: var(--color_button);
+    color: #34998f;
     padding: 16px 12px;
     border: var(--color_button) 8px solid;
     border-radius: 16px;
