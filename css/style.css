@@ -47,7 +47,7 @@
     color: var(--color-font-nav);
     padding-block: 16px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .menu-burguer {
