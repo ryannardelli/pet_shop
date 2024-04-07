@@ -83,3 +83,26 @@ icon_back_to_top.addEventListener('click', () => {
         behavior: "smooth",
     });
 });
+
+
+// script da interação com os links da nav
+
+const links = document.querySelectorAll('.link');
+const color_effect = '#d3d3d3';
+const color_main = '#260101';
+
+links.forEach(link => {
+    link.addEventListener('mouseover', () => {
+        links.forEach(otherLink => {
+            if(otherLink !== link) {
+                otherLink.style.color = color_effect;
+            }
+        });
+    });
+
+    link.addEventListener('mouseout', () => {
+        links.forEach(otherLink => {
+            otherLink.style.color = color_main;
+        })
+    });
+});

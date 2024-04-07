@@ -9,8 +9,6 @@
     --color-font-nav: #260101;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -49,6 +47,8 @@
     color: var(--color-font-nav);
     padding-block: 16px;
     text-decoration: none;
+    transition: 0.5s;
+    /* transition: 0.3s ease-in-out; */
 }
 
 .menu-burguer {
@@ -386,8 +386,6 @@ footer {
     border-radius: 5px;
     text-align: center;
 }
-
-
 
 #pop_up_button button {
     background: var(--color_theme_background-first);
